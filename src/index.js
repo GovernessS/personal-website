@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AboutMe from './AboutMe';
+import Contact from './Contact';
+import Experience from './Experience';
+import Projects from './Projects';
+import Resume from './Resume';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App />,
   </React.StrictMode>,
   document.getElementById('root')
 );
